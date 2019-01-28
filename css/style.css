@@ -1,0 +1,95 @@
+.skip {
+	position: absolute;
+	left: -1000px;
+}
+
+.skip:focus {
+	left: 0;
+	color: blue;
+	text-decoration: underline;
+}
+
+header{
+ 	text-align: right;
+ 	font-family: 'Josefin Sans';
+	font-size: 12px;
+	padding-top: 44px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+.logo{
+	text-align: left;
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 160px;
+	padding-top: 20px;
+}
+
+.menu a{
+	padding: 10px;
+}
+
+.current{
+	background-color: #ffe6e6;
+	text-decoration: underline;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	clear: both;
+	text-align: center;
+	font-family: 'Taproom', serif;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+h2{
+	clear: both;
+	text-align: center;
+	font-family: 'Taproom', serif;
+	font-size: 30px;
+	padding-bottom: 60px;
+}
+
+
+.container{
+	display: inline-flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+
+.horizontal img{
+	height: 450px;
+	width: 600px;
+}
+
+.vertical img{
+	height: 650px;
+	width: 500px;
+}
+
+footer{
+	text-align: center;
+	padding: 44px;
+	padding-top: 100px;
+}
+
+.footer-items a{
+	padding: 8px;
+}
+
+footer div{
+	padding-top: 15px;
+	font-family: 'Josefin Sans';
+}
+
