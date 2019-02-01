@@ -60,10 +60,10 @@ h2{
 
 
 .container{
-	display: inline-flex;
+	display: block-flex;
 	flex-flow: wrap;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	align-content: flex-start;
 }
 
@@ -71,11 +71,13 @@ h2{
 .horizontal img{
 	height: 450px;
 	width: 600px;
+	text-align: center;
 }
 
 .vertical img{
 	height: 650px;
 	width: 500px;
+	text-align: center;
 }
 
 footer{
