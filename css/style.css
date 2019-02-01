@@ -69,15 +69,17 @@ h2{
 
 
 .horizontal img{
-	height: 450px;
+	height: 475px;
 	width: 600px;
 	text-align: center;
+	padding: 10px;
 }
 
 .vertical img{
 	height: 650px;
 	width: 500px;
 	text-align: center;
+	padding: 10px;
 }
 
 footer{
