@@ -23,7 +23,7 @@ header{
 	font-family: 'Josefin Sans';
 	font-size: 20px;
 	font-weight: 700;
-	padding-left: 160px;
+	padding-left: 100px;
 	padding-top: 20px;
 }
 
@@ -63,7 +63,7 @@ h2{
 	display: inline-flex;
 	flex-flow: wrap;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	align-content: flex-start;
 }
 
@@ -92,4 +92,5 @@ footer div{
 	padding-top: 15px;
 	font-family: 'Josefin Sans';
 }
+
 
