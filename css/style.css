@@ -60,7 +60,7 @@ h2{
 
 
 .container{
-	display: block-flex;
+	display: inline-flex;
 	flex-flow: wrap;
 	justify-content: center;
 	align-items: flex-start;
