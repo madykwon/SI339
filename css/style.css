@@ -20,11 +20,16 @@ header{
 
 .logo{
 	text-align: left;
-	font-family: 'Josefin Sans';
-	font-size: 20px;
-	font-weight: 700;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 35px;
+	font-weight: 400;
 	padding-left: 100px;
 	padding-top: 20px;
+}
+
+.logo a{
+	text-decoration: none;
+	color: black;
 }
 
 .menu a{
@@ -37,48 +42,90 @@ header{
 }
 
 
-a{
+nav a{
 	text-decoration: none;
 	color: black;
 }
 
 h1{
-	clear: both;
 	text-align: center;
 	font-family: 'Taproom', serif;
 	font-size: 40px;
-	padding-bottom: 10px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 
 h2{
-	clear: both;
 	text-align: center;
 	font-family: 'Taproom', serif;
 	font-size: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
+h3{
+	text-align: center;
+	font-family: 'Taproom', serif;
+	font-size: 20px;
+	padding: 30px 150px 5px 150px;
+}
+
+p{
+	text-align: left;
+	font-family: 'Taproom', serif;
+	font-size: 18px;
+	line-height: 1.2;
+	padding: 20px 175px 10px 200px;
+}
+
+figcaption {
+	text-align: center;;
+}
+
+.bold{
+	text-align: left;
+	font-family: 'Taproom', serif;
+	font-size: 18px;
+	font-weight: 800;
+	padding: 30px 150px 5px 200px;
+}
 
 .container{
-	display: inline-flex;
+	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
 	align-items: flex-start;
 	align-content: flex-start;
+	padding-top: 20px;
 }
 
 
 .horizontal img{
 	height: 475px;
 	width: 600px;
-	text-align: center;
+	padding: 10px;
+}
+
+.wide img{
+	height: 475px;
+	width: 700px;
 	padding: 10px;
 }
 
 .vertical img{
 	height: 650px;
 	width: 500px;
-	text-align: center;
+	padding: 10px;
+}
+
+.long img{
+	height: 550px;
+	width: 400px;
+	padding: 10px;
+}
+
+.square img{
+	height: 475px;
+	width: 475px;
 	padding: 10px;
 }
 
