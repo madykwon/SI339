@@ -89,6 +89,14 @@ figcaption {
 	padding: 30px 150px 5px 200px;
 }
 
+.ending{
+    text-align: left;
+	font-family: 'Taproom', serif;
+	font-size: 18px;
+	line-height: 2;
+	padding: 20px 175px 10px 200px;
+}
+
 .container{
 	display: flex;
 	flex-flow: wrap;
