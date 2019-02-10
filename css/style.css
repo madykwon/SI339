@@ -33,14 +33,23 @@ header{
 }
 
 .menu a{
-	padding: 10px;
+	margin: 10px;
 }
 
 .current{
 	background-color: #ffe6e6;
 	text-decoration: underline;
+	padding: 10px;
 }
 
+body, html{
+	height: 100%;
+}
+
+.about{
+	background-image: url("background.jpg");
+	height: 100%;
+}
 
 nav a{
 	text-decoration: none;
@@ -51,15 +60,15 @@ h1{
 	text-align: center;
 	font-family: 'Taproom', serif;
 	font-size: 40px;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 h2{
 	text-align: center;
 	font-family: 'Taproom', serif;
 	font-size: 30px;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 h3{
@@ -69,12 +78,27 @@ h3{
 	padding: 30px 150px 5px 150px;
 }
 
-p{
+p, 
+.bold, 
+#ending{
 	text-align: left;
 	font-family: 'Taproom', serif;
 	font-size: 18px;
+}
+
+p{
 	line-height: 1.2;
 	padding: 20px 175px 10px 200px;
+}
+
+
+p a:visited{
+	color: black;
+	text-decoration: underline;
+}
+
+p a:hover{
+	color: purple;
 }
 
 figcaption {
@@ -82,19 +106,13 @@ figcaption {
 }
 
 .bold{
-	text-align: left;
-	font-family: 'Taproom', serif;
-	font-size: 18px;
 	font-weight: 800;
-	padding: 30px 150px 5px 200px;
+	margin: 30px 150px 5px 200px;
 }
 
-.ending{
-    text-align: left;
-	font-family: 'Taproom', serif;
-	font-size: 18px;
+#ending{
 	line-height: 2;
-	padding: 20px 175px 10px 200px;
+	margin: 0 175px 10px 200px;
 }
 
 .container{
@@ -105,7 +123,6 @@ figcaption {
 	align-content: flex-start;
 	padding-top: 20px;
 }
-
 
 .horizontal img{
 	height: 475px;
@@ -119,7 +136,7 @@ figcaption {
 	padding: 10px;
 }
 
-.vertical img{
+.vertical img {
 	height: 650px;
 	width: 500px;
 	padding: 10px;
@@ -139,12 +156,12 @@ figcaption {
 
 footer{
 	text-align: center;
-	padding: 44px;
-	padding-top: 100px;
+	margin: 44px;
+	margin-top: 100px;
 }
 
 .footer-items a{
-	padding: 8px;
+	margin: 8px;
 }
 
 footer div{
