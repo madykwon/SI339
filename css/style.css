@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 .skip {
 	position: absolute;
 	left: -1000px;
@@ -118,14 +122,27 @@ figcaption {
 .container{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: center;
 	padding-top: 20px;
 }
 
-.horizontal img{
-	height: 475px;
-	width: 600px;
+
+.column{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 10px;
+}
+
+.column img{
 	padding: 10px;
+	max-width: 30%;
+}
+
+.horizontal img{
+	width: 400px;
+	padding: 5px;
 }
 
 .wide img{
@@ -134,9 +151,8 @@ figcaption {
 	padding: 10px;
 }
 
-.vertical img {
-	height: 650px;
-	width: 500px;
+.vertical img{
+	height: 400px;
 	padding: 10px;
 }
 
