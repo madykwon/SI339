@@ -142,7 +142,7 @@ footer div{
 	font-family: 'Josefin Sans';
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 667px) {
 	#menu-icon{
 		display: none;
 	}
