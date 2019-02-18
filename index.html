@@ -2,7 +2,7 @@
 <html lang="en">
 <head> 
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Taprom">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
@@ -14,28 +14,32 @@
 <body>
 	<a class="skip" href="#content">Skip to Content</a>
 	<header>
-		<div class="logo">
-			<a href=index.html>madykwon</a>
-		</div>
-		<nav class="menu">
-			<a class="current" href=index.html>HOME</a>
-			<a href=culture.html>CULTURE</a>
-			<a href=places.html>PLACES</a>
-			<a href=eat.html>FOOD</a>
-			<a href=aboutme.html>ABOUT</a>
+		<a href=index.html id="logo">madykwon</a>
+		<div class="sticky">
+		<div class="fixed">
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a class="current" href=index.html>HOME</a></li>
+				<li><a href=culture.html>CULTURE</a></li>
+				<li><a href=places.html>PLACES</a></li>
+				<li><a href=eat.html>FOOD</a></li>
+				<li><a href=aboutme.html>ABOUT</a></li>
+			</ul>
 		</nav>	
+		</div>
+		</div>
 	</header>
 
 	<main id="content">
 		<h1>COPENHAGEN</h1>
 		<h2>a travel diary</h2>
 
-		<div class="column">
+		<div class="gallery">
 			<img src="images/street.jpeg" alt="Copenhagen street view"/>
 			<img src="images/reffen(me).jpeg" alt="Me holding shaved ice"/>
 			<img src="images/fashion.jpeg" alt="Clothing store"/>
 			
-
 			<img src="images/mikkeller.jpeg" alt="Mikkeller beer garden"/>
 			<img src="images/beach.jpeg" alt="Amager Strand">
 			<img src="images/nyhavnnight.jpeg" alt="Nyhavn at night"/>
@@ -46,12 +50,12 @@
 	</main>
 
 	<footer>
-		<nav class="footer-items">
+		<div class="footer-items">
 			<a href="https://www.instagram.com/mady_kwon/" aria-label="Instagram Profile"><i aria-hidden="true" class="fab fa-instagram fa-2x" title="Instagram Profile"></i></a>
 			<a href="https://madykwon.wixsite.com/madyk" aria-label="Wix Website"><i aria-hidden="true" class="fab fa-wix fa-2x" title="Wix Website"></i></a>
 			<a href="https://www.linkedin.com/in/madeline-kwon/" aria-label="LinkedIn Profile"><i aria-hidden="true" class="fab fa-linkedin-in fa-2x" title="LinkedIn Profile"></i></a>
 			<a href="mailto:madykwon@gmail.com" aria-label="Email contact"><i aria-hidden="true" class="far fa-envelope fa-2x" title="Email contact"></i></a>
-		</nav>
+		</div>
 		<div>
 			<i class="far fa-copyright"></i>
 			Mady Kwon
