@@ -38,7 +38,7 @@ header{
 }
 
 #menu-icon {
-	display: inline-block;
+	display: inline-flex;
 	margin-right: -80px;
 	width: 40px;
 	height: 40px;
@@ -106,23 +106,66 @@ header a{
 }
 
 h1{
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
-
-.bold{
-	margin: 20px 150px 5px 35px;
+ 
+.bold, 
+#ending{
+	font-weight: 800;
+	text-align: left;
+	font-family: 'Taproom', serif;
+	font-size: 16px;
+	margin: 20px 150px 5px 50px;
 }
 
 p{
-	padding: 20px 50px 10px 35px;
+	padding: 20px 50px 20px 50px;
+	line-height: 1.5;
+}
+
+p a:visited{
+	color: black;
+	text-decoration: underline;
+}
+
+p a:hover{
+	color: purple;
+}
+
+figcaption a:visited{
+	color: black;
+}
+
+.foods{
+	text-align: center;
+	font-family: 'Taproom', serif;
+	font-size: 18px;
+	margin: 50px 150px 5px 150px;
+}
+
+.gallery{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .gallery img{
-	max-width: 100%
+	max-width: 80%;
+	margin-bottom: 10px;
+}
+
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .container img{
-	max-width: 100%
+	max-width: 80%; 
+	margin-bottom: 10px;
 }
 
 footer{
@@ -140,6 +183,7 @@ footer div{
 	padding-top: 15px;
 	font-family: 'Josefin Sans';
 }
+
 
 @media only screen and (min-width: 667px)  { 
 
@@ -159,7 +203,6 @@ footer div{
 
 	nav:hover ul{
 		display: none;
-		z-index: -9999;
 	}
 
 	nav a, div a{
@@ -205,34 +248,13 @@ footer div{
 		margin: 30px 150px 5px 150px;
 	}
 
-	p, 
-	.bold, 
-	#ending{
-		text-align: left;
-		font-family: 'Taproom', serif;
-		font-size: 18px;
-	}
-
 	p{
+		font-size: 18px;
 		line-height: 1.2;
 		padding: 20px 175px 10px 200px;
 	}
 
-	p a:visited{
-		color: black;
-		text-decoration: underline;
-	}
-
-	p a:hover{
-		color: purple;
-	}
-
-	figcaption {
-		text-align: center;;
-	}
-
 	.bold{
-		font-weight: 800;
 		margin: 30px 150px 5px 200px;
 	}
 
@@ -241,26 +263,9 @@ footer div{
 		margin: 0 175px 10px 200px;
 	}
 
-
-	.gallery{
-		display: flex;
-		flex-flow: row wrap;
-		align-items: flex-start;
-		justify-content: center;
-		margin: 10px;
-	}
-
 	.gallery img{
 		padding: 10px;
 		max-width: 30%;
-	}
-
-	.container{
-		display: flex;
-		flex-flow: row wrap;
-		align-items: flex-start;
-		justify-content: center;
-		margin: 10px;
 	}
 
 	.container img{
