@@ -27,8 +27,7 @@ header{
 }
 
 #logo{
-	float: left;
-	display: block;
+	display: flex;
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 35px;
 	font-weight: 400;
@@ -61,7 +60,7 @@ h2{
 	margin-bottom: 30px;
 }
 
-nav ul, nav:active ul{ 
+nav ul, nav:active ul { 
 	display: none;
 	position: absolute;
 	padding: 10px;
@@ -72,7 +71,7 @@ nav ul, nav:active ul{
 	border-radius: 4px 0 4px 4px;
 }
 
-nav li{
+nav li {
 	text-align: center;
 	width: 100%;
 	padding: 10px 0;
@@ -142,8 +141,7 @@ footer div{
 	font-family: 'Josefin Sans';
 }
 
-@media only screen and (min-width: 667px) 
-and (-webkit-max-device-pixel-ratio: 2) { 
+@media only screen and (min-width: 667px)  { 
 
 	#menu-icon{
 		display: none;
@@ -152,7 +150,6 @@ and (-webkit-max-device-pixel-ratio: 2) {
 	nav ul, nav:active ul{
 		display: inline-flex;
 		position: absolute;
-		float: left;
 		background: none;
 		top: 40px;
 		padding: 10px;
@@ -172,7 +169,6 @@ and (-webkit-max-device-pixel-ratio: 2) {
 
 	nav ul li{
 		display: inline-block;
-		float: left;
 		margin-top: 20px;
 		padding: 10px;
 	}
