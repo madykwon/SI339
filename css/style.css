@@ -114,6 +114,7 @@ p::first-line,
 }
 
 p{
+	font-size: 18px;
 	padding: 5px 50px 20px 50px;
 	line-height: 1.5;
 }
@@ -127,15 +128,14 @@ p a:hover{
 	color: purple;
 }
 
-p:first-child{
+#content:nth-child(2){
 	text-indent: 50px;
-	background-color: red;
 }
 
 .foods{
 	text-align: center;
 	font-family: 'Taproom', serif;
-	font-size: 18px;
+	font-size: 20px;
 	margin: 50px 150px 5px 150px;
 }
 
@@ -183,11 +183,14 @@ footer div{
 	font-family: 'Josefin Sans';
 }
 
+@media only screen and (orientation: landscape) {
+	p{
+		font-size: 12px;
+	}
+}
 
 @media only screen and (min-width: 700px)  {
-	#menu-icon{
-		display: none;
-	}
+	
 
 	header{
 		display: flex;
@@ -241,14 +244,10 @@ footer div{
 	}
 
 	.foods{
-		text-align: center;
-		font-family: 'Taproom', serif;
-		font-size: 20px;
 		margin: 30px 150px 5px 150px;
 	}
 
 	p{
-		font-size: 18px;
 		line-height: 1.2;
 		padding: 20px 175px 10px 200px;
 	}
