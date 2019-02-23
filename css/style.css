@@ -183,11 +183,6 @@ footer div{
 	font-family: 'Josefin Sans';
 }
 
-@media only screen and (orientation: landscape) {
-	p{
-		font-size: 12px;
-	}
-}
 
 @media only screen and (min-width: 700px)  {
 	
@@ -270,6 +265,12 @@ footer div{
 		padding: 10px;
 		max-width: 60%;
 	}
+}
 
+@media only screen and (orientation: landscape) {
+	p{
+		font-size: 12px;
+	}
+}
 
 		
