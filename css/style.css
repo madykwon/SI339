@@ -243,6 +243,10 @@ footer div{
 		font-size: 40px;
 	}
 
+	.navbar-toggle {
+		display: none;
+	}
+
 	nav ul {
 		display: flex;
 		flex-direction: row;
