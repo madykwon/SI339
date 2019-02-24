@@ -182,16 +182,7 @@ footer div{
 	font-family: 'Josefin Sans';
 }
 
-@media only screen 
-  and (max-device-width: 700px)
-  and (orientation: landscape) {
-
-	p{
-		font-size: 12px;
-	}
-}
-
-@media only screen and (min-width: 700px)  {
+@media only screen and (min-width: 568px)  {
 	
 	header{
 		display: flex;
@@ -275,6 +266,20 @@ footer div{
 	.container img{
 		padding: 10px;
 		max-width: 60%;
+	}
+}
+
+@media only screen 
+  and (max-device-width: 568px)
+  and (orientation: landscape) {
+
+	p{
+		font-size: 12px;
+		padding: 10px 0 10px 95px;
+	}
+
+	h1{
+		font-size: 20px;
 	}
 }
 
