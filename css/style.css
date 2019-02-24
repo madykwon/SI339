@@ -182,8 +182,8 @@ footer div{
 }
 
 @media only screen 
-  and (min-width: 600px) and (max-width: 768px),
-  and (orientation: landscape) and (max-width: 768px) {
+  and (min-width: 600px) and (max-width: 868px),
+  and (orientation: landscape) and (max-width: 868px) {
 
 	p{
 		font-size: 16px;
@@ -216,7 +216,7 @@ footer div{
 		display: block;
     	position: absolute;
     	top: 60px;
-    	right: 20px;
+    	right: 30px;
     	cursor: pointer; 
     	color: black;
     	font-size: 24px;
@@ -230,9 +230,13 @@ footer div{
     .active {
   		display: block;
 	}
+
+	#ending{
+		margin: 20px 50px 20px 95px;
+	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 868px) {
 	
 	header{
 		display: flex;
