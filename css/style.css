@@ -32,14 +32,6 @@ header{
 	color: black;
 }
 
-/*#menu-icon {
-	display: inline-block;
-	margin-right: -80px;
-	width: 40px;
-	height: 40px;
-	background: #ffe6e6 url(menu-icon.png) center;
-}*/
-
 h1{
 	text-align: center;
 	font-family: 'Taproom', serif;
@@ -54,18 +46,6 @@ h2{
 	font-size: 30px;
 	margin-bottom: 30px;
 }
-
-/*nav ul, nav:active ul { 
-	display: none;
-	position: absolute;
-	list-style: none;
-	padding: 10px;
-	background: #ffe6e6;
-	right: -10px;
-	top: 55px;
-	width: 25%;
-	border-radius: 4px 0 4px 4px;
-}*/
 
 nav{
 	padding-top: 15px;
