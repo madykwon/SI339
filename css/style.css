@@ -152,14 +152,14 @@ p a:hover{
 	font-size: 20px;
 }
 
-.gallery{
+#gallery{
 	display: flex;
 	flex-flow: row wrap;
 	align-items: flex-start;
 	justify-content: center;
 }
 
-.gallery img{
+#gallery img{
 	max-width: 80%;
 	margin-bottom: 10px;
 }
@@ -490,7 +490,7 @@ footer div{
 		margin: 0 175px 10px 200px;
 	}
 
-	.gallery img{
+	#gallery img{
 		padding: 10px;
 		max-width: 30%;
 	}
