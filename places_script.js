@@ -32,33 +32,6 @@ function myFunction() {
   }
 }
 
-
-window.onload = function() {
-  typeWriter();
-};
-
-var i = 0;
-var txt = 'a travel diary';
-var speed = 70;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("type").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-  	// setInterval(function() {
-  	// 	if (i === 0) {
-  	// 		document.getElementById("type").innerHTML = txt + "|" 
-  	// 		i = 1;
-  	// 	} else {
-  	// 		document.getElementById("type").innerHTML = txt 
-  	// 		i = 0;
-  	// 	};
-  	// })
-}
-
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -99,6 +72,6 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block"; 
-  setTimeout(carousel, 3000); // Change image every 2 seconds
+  setTimeout(carousel, 2800); // Change image every 2 seconds
 }
 
