@@ -43,3 +43,4 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+}
