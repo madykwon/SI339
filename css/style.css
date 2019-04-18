@@ -130,7 +130,7 @@ p a:hover{
   	transform: translate(-50%);
 }
 
-.active, .accordion:hover {
+.active, .accordion:hover, .accordion:focus{
 	background-color: #ffe27c; 
 }
 
@@ -229,7 +229,7 @@ p a:hover{
 	text-align: center;
 }
 
-.dot {
+.dot, .dot:focus{
 	cursor: pointer;
 	height: 15px;
 	width: 15px;
@@ -240,7 +240,7 @@ p a:hover{
 	transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .dot:hover, .dot:focus{
 	background-color: #717171;
 }
 
@@ -285,7 +285,7 @@ p a:hover{
 	margin-bottom: 10px;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner, .flip-card:focus .flip-card-inner {
 	transform: rotateY(180deg);
 }
 
